@@ -12,7 +12,7 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
-h2{
+h2 {
   font-family: var(--heading-font-family);
 }
 .hero h2 {
@@ -42,9 +42,13 @@ P {
   padding: 20px 30px;
   line-height: 27px;
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
-.btn-branding {
+:hover.contact-btn {
+  background-color: var(--branding-color);
+  color: black;
+}
+.btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 5px;
@@ -52,16 +56,19 @@ P {
   line-height: 27px;
   padding: 15px 30px;
 }
+:hover.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
 P {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 @media (max-width: 900px) {
-  .description{
-    padding :0;
+  .description {
+    padding: 0;
     text-align: center;
-  }
   }
   h1 {
     font-size: 44px;
