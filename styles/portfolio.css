@@ -12,6 +12,9 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
+h2{
+  font-family: var(--heading-font-family);
+}
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
