@@ -108,7 +108,8 @@ P {
   border-radius: 20px;
 }
 .content-section h3 {
-  font-size: 24px;
+  font-size: 30px;
+
   line-height: 1.5;
   font-family: var(--heading-font-family);
 }
