@@ -159,3 +159,36 @@ nav a {
   border: 1px solid black;
   padding: 80px 50px;
 }
+.footer-btn {
+  background: var(--branding-color);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 30px;
+}
+:hover.footer-btn {
+  background: var(--branding-color);
+  color: black;
+}
+footer {
+  margin: 20px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 4px;
+}
+.footer-mail-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #272142;
+}
