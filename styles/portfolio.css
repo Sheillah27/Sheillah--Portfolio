@@ -1,11 +1,11 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #36d2ad;
+  --secondary-color: #d0e9de;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 body {
-  font-family: var (--default-font-family);
+  font-family: var(--default-font-family);
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -25,10 +25,8 @@ P {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
-.hero P {
-  font-size: 36px;
+.header-P {
   font-weight: bold;
-  margin: 0;
   color: #272142;
 }
 .hero {
@@ -37,13 +35,18 @@ P {
   padding: 160px 20px;
 }
 .contact-btn {
-  background-color: var(--branding-color);
+  background: var(--branding-color);
+  border-radius: 5px;
   color: white;
+  font-size: 20px;
+  line-height: 24px;
   padding: 20px 30px;
-  line-height: 27px;
-  font-size: 18px;
-  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: -30px;
+  float: right;
 }
+
 :hover.contact-btn {
   background-color: var(--branding-color);
   color: black;
@@ -56,7 +59,7 @@ P {
   line-height: 27px;
   padding: 15px 30px;
 }
-:hover.btn-branding-outline {
+:hover.btn-branding-outline .contact-btn {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
 }
@@ -70,9 +73,12 @@ P {
     padding: 0;
     text-align: center;
   }
+  .name {
+    text-align: center;
+  }
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
@@ -83,6 +89,9 @@ P {
   .content-section {
     text-align: center;
     padding: 0;
+  }
+  .contact-btn {
+    font-size: 16px;
   }
 }
 .projects-btn {
@@ -109,7 +118,44 @@ P {
 }
 .content-section h3 {
   font-size: 30px;
-
   line-height: 1.5;
   font-family: var(--heading-font-family);
+}
+
+.logo {
+  max-width: 100px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  margin-left: 15px;
+}
+nav {
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+.nameplate {
+  padding: 50px 50px 100px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.heading {
+  background-color: white;
+  padding: 30px;
+  margin-left: 50px;
+  margin-bottom: -30px;
+  text-align: center;
+  display: inline-block;
+}
+.name {
+  border: 1px solid black;
+  padding: 80px 50px;
 }
