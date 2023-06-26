@@ -68,13 +68,13 @@ P {
   font-size: 16px;
   line-height: 30px;
 }
-@media (max-width: 900px) {
+@media (min-width: 280px) and (max-width: 900px) {
   .description {
     padding: 0;
     text-align: center;
   }
   .name {
-    text-align: center;
+    padding: 50px;
   }
   h1 {
     font-size: 44px;
