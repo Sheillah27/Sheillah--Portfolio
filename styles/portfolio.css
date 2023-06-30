@@ -68,12 +68,12 @@ P {
   font-size: 16px;
   line-height: 30px;
 }
-@media (min-width: 280px) and (max-width: 900px) {
+@media (min-width: 200px) and (max-width: 900px) {
   .description {
     padding: 0;
     text-align: center;
   }
-  .name {
+  .nameplate {
     padding: 50px;
   }
   h1 {
@@ -191,4 +191,7 @@ footer .contact-box {
   text-decoration: none;
   font-size: 24px;
   color: #272142;
+}
+nav li.active a {
+  color: var(--branding-color);
 }
