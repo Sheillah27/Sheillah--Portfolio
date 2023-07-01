@@ -207,3 +207,10 @@ footer .contact-box {
 nav li.active a {
   color: var(--branding-color);
 }
+.footer-git-link a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.footer-git-link {
+  font-family: monospace;
+}
